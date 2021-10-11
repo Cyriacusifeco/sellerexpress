@@ -1,0 +1,246 @@
+body {
+        
+    background: rgb(red, green, blue);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    padding: 0;
+  
+  }
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+  
+/* Defines the header container */
+
+
+  header {
+
+    background: rgb(0, 130, 150);
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    text-align: center;
+
+  }
+
+
+/* RESPONSIVE RULES FOR HEADER */
+@media screen and (max-width: 415px) {
+  header {
+
+    height: 60px;
+    margin: 0px;
+  }
+}
+
+/* Attributes of the header logo */
+    header .Logo a {
+
+    background-image: url("images/exp13.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    top: -20px;
+    margin-left: -950px;
+    height: 120px;
+    width: 120px;
+    text-indent: -9999px;
+
+
+  }
+
+  /* RESPONSIVE RULES FOR .LOGO */
+
+  @media screen and (max-width: 415px) {
+
+    header .Logo a {
+      background-size: 80px;
+      margin-left: -200px;
+    }
+
+  }
+/* The sign up button */
+  .sign-up-button {
+
+    
+    justify-content: flex-end;
+    position: relative;
+    padding-top: 10px;
+    background-color: chocolate;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    
+/* RESPONSIVE RULES FOR BUTTON */
+  }
+  @media screen and (max-width: 415px) {
+.sign-up-button {
+  padding: 10px 10px;
+  font-size: 12px;
+  margin-left: -50px;
+  
+}
+  }
+
+/* Homepage login link */
+  .log-in a {
+
+    font-size: 18px;
+    color: white;
+  }
+/* RESPONSIVE RULES FOR LOGIN LINK */
+  @media screen and (max-width: 415px) {
+    .log-in a {
+      font-size: 14px;
+      position: relative;
+      margin-left: -90px;
+      
+    }
+      }
+
+  
+/* defines the header navigation  */
+  nav ul {
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+
+  }
+
+  nav li {
+
+    display: inline-block;
+    margin: 20px;
+    
+
+  }
+/* Defines the attributes of the main banner of the homepage */
+    section.front-banner {
+
+      background-image: url("images/image-1.jpg");
+      background-size: 100%;
+      display: flex;
+      justify-content: center;
+      background-repeat: no-repeat;
+      font-size: 80px;
+      color: whitesmoke;
+      padding: 100px;
+      text-indent: -9999999px;
+
+    }
+    @media screen and (max-width: 415px) {
+
+      section.front-banner {
+
+        background-size: 100%;
+      }
+
+
+
+    }
+
+
+
+/* defines the 'services' text and it's subtitle */
+    .services {
+
+      background-color: white;
+      color: black;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      margin-left: -40px;     
+      top: 50px;
+            
+                
+    }
+/* subtitle of the services heading */
+    h4 {
+
+      font-style: italic;
+      color: grey;
+      position: relative;
+      top: -30px;
+      
+    }
+      
+
+      
+/* defines attributes of The features section of the home page */
+    .features div{
+
+        
+      background-color: white;
+      display: flex;
+      color: grey;
+      position: relative;
+      top: 1px;
+    
+      
+
+      
+                
+      }
+/* RESPONSIVE .FEATURES DIV */
+
+      @media screen and (max-width: 415px) {
+
+        .features div {
+          flex-wrap: wrap;
+
+        }
+
+      }
+/* Places features section in columns */
+      .column {
+
+        display: flex;
+        flex-direction: column;
+        flex: 33.3333333333%;
+        
+        padding: 25px;
+        text-align: center;
+        align-content: center;
+      }
+
+      
+/* defines the attributes of the images within the features columns */
+    .features img {
+
+      border-radius: 50%;
+      width: 200px;
+      padding: 30px;
+      align-self: center;
+           
+      }
+/* The footer section */
+  footer {
+
+    background:  rgb(0, 130, 150);
+    text-size-adjust: auto;
+    font-size: 12px;
+    text-align: center;
+
+    margin: 0px;
+
+    padding: 40px;
+    height: 40px;
+  
+  }
+
+
+  

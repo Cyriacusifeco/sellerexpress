@@ -11,8 +11,37 @@
   <body>
 
     <div class="logincontainer">
-      <form class="loginform" id="login">
-        <h1 class="loginform-tittle">LOGIN</h1>
+      <form class="loginform" id="createAccount">
+        <h1 class="form-tittle">Create Account</h1>
+        <div class="loginform-message loginform-message-error">Incorrect username / password combination.</div>
+        <div class="loginform-input-group">
+          <input type="text" class="loginform-input" autofocus placeholder="username">
+          <div class="loginform-input-error-message">That input is incorrect</div>
+
+        </div>
+        <div class="loginform-input-group">
+          <input type="text" class="loginform-input" autofocus placeholder="Email Address">
+          <div class="loginform-input-error-message">That input is incorrect</div>
+
+        </div>
+        <div class="loginform-input-group">
+          <input type="password" class="loginform-input loginform-input-error" autofocus placeholder="password">
+          <div class="loginform-input-error-message">This is an incorrect password</div>
+
+        </div>
+        <div class="loginform-input-group">
+          <input type="password" class="loginform-input loginform-input-error" autofocus placeholder="Confirm password">
+          <div class="loginform-input-error-message">This is an incorrect password</div>
+
+        </div>
+        <button class="login-button" type="submit">Continue</button>
+        
+        <p class="loginform-text">
+          <a href="#" class="form-link" id="linklogin">Already have an account? Log-in.</a>
+        </p>
+      </form>
+      <form class="loginform form-hidden" id="login">
+        <h1 class="form-tittle">Login</h1>
         <div class="loginform-message loginform-message-error">Incorrect username / password combination.</div>
         <div class="loginform-input-group">
           <input type="text" class="loginform-input" autofocus placeholder="username or email">
@@ -20,16 +49,16 @@
 
         </div>
         <div class="loginform-input-group">
-          <input type="password" class="loginform-input" autofocus placeholder="password">
+          <input type="password" class="loginform-input loginform-input-error" autofocus placeholder="password">
           <div class="loginform-input-error-message">This is an incorrect password</div>
 
         </div>
         <button class="login-button" type="submit">Continue</button>
         <p class="loginform-text">
-          <a href="#" class="sign-up-link">Forgot your password?</a>
+          <a href="#" class="form-link">Forgot your password?</a>
         </p>
         <p class="loginform-text">
-          <a href="#" class="sign-up-link" id="linkCreateAccount">Don't have an account? Create an account.</a>
+          <a href="#" class="form-link" id="linkCreateAccount">Don't have an account? Create an account.</a>
         </p>
       </form>
     </div>
